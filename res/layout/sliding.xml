@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" android:layout_gravity="right" android:gravity="right">
+
+    <LinearLayout
+        android:id="@+id/lay_all_sliding"
+        android:layout_width="220dip"
+        android:layout_height="fill_parent"
+        android:background="#132535"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/lay_search"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:layout_marginRight="4dip"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal" android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ImageView07"
+                    android:layout_width="48dip"
+                    android:layout_height="48dip"
+                    android:src="@drawable/queen" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dip"
+                    android:text="Queen"
+                    android:textColor="#66798A"
+                    android:textSize="20dip" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="fill_parent"
+            android:layout_height="4dip"
+            android:src="#293949" android:layout_marginLeft="8dip" android:layout_marginRight="8dip"/>
+
+        <LinearLayout
+            android:id="@+id/lay_message"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:layout_marginRight="8dip"
+            android:gravity="center" android:layout_marginBottom="8dip" android:layout_marginLeft="8dip" android:layout_marginTop="8dip">
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:text="By User"
+                android:textColor="#66798A"
+                android:textSize="20dip" android:gravity="right|center" android:layout_weight="0.7" android:layout_marginRight="60dip"/>
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:src="@drawable/user" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ImageView04"
+            android:layout_width="fill_parent"
+            android:layout_height="4dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:src="#293949" />
+
+        <LinearLayout
+            android:id="@+id/lay_program"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:layout_marginRight="8dip"
+            android:gravity="center" android:layout_marginLeft="8dip" android:layout_marginTop="8dip">
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="16dip"
+                android:layout_weight="0.7"
+                android:gravity="right|center"
+                android:text="Hill Climbing"
+                android:textColor="#66798A"
+                android:textSize="20dip" />
+
+            <ImageView
+                android:id="@+id/ImageView03"
+                android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:src="@drawable/hill" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ImageView05"
+            android:layout_width="fill_parent"
+            android:layout_height="4dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:src="#293949" />
+
+        <LinearLayout
+            android:id="@+id/lay_idea"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:layout_marginRight="8dip" android:layout_marginLeft="8dip" android:layout_marginTop="8dip">
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginRight="60dip"
+                android:layout_weight="0.7"
+                android:gravity="right|center"
+                android:textColor="#66798A"
+                android:textSize="20dip" android:text="Genetic"/>
+
+            <ImageView
+                android:id="@+id/ImageView06"
+                android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:src="@drawable/gene" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay_about"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:layout_marginRight="4dip"
+            android:layout_weight="1" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dip"
+            android:text="Developer"
+            android:textColor="#66798A"
+            android:textSize="20dip" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dip"
+            android:text="Jaber Babaki"
+            android:textColor="#66798A"
+            android:textSize="16dip" android:layout_marginBottom="8dip" android:layout_marginTop="8dip"/>
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dip"
+            android:text="jaber.babaki94@gmail.com"
+            android:textColor="#66798A"
+            android:textSize="16dip" android:layout_marginBottom="8dip" android:layout_marginTop="8dip"/>
+
+    </LinearLayout>
+
+</LinearLayout>
